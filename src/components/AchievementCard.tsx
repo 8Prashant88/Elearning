@@ -27,7 +27,7 @@ export function AchievementCard({ achievement }: AchievementCardProps) {
           <h3 className="font-semibold text-gray-900">{achievement.title}</h3>
           <p className="text-sm text-gray-600">{achievement.description}</p>
           <div className="flex items-center mt-1 text-sm">
-            <Trophy size={14} className="text-purple-600 mr-1" />
+            <LucideIcons.Trophy size={14} className="text-purple-600 mr-1" />
             <span className="text-purple-600 font-medium">{achievement.xp} XP</span>
           </div>
         </div>
